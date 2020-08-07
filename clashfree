@@ -6,23 +6,18 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: SSRTOOL.COM, server: 45.8.159.203, port: 45679, type: vmess, uuid: 8f17edeb-927e-4ad0-a489-64d491bfac69, alterId: 233, cipher: auto, tls: false}
-  - {name: SSRTOOL.COM 2, server: 213.183.53.59, port: 1080, type: vmess, uuid: 7E6CCF4E-A2BB-97BB-A4B9-74F6E3BCBE96, alterId: 6, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 213.183.53.59}}
-  - {name: SSRTOOL.COM 3, server: mbzxe7zrq8yrneoa.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: mbzxe7zrq8yrneoa.0x01.cyou}}
-  - {name: SSRTOOL.COM 4, server: uiogfvt.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: uiogfvt.0x01.cyou}}
-  - {name: SSRTOOL.COM 5, server: cpuuh24.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: cpuuh24.0x01.cyou}}
-  - {name: SSRTOOL.COM 6, server: nimyu.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: nimyu.0x01.cyou}}
+  - {name: SSRTOOL.COM 2, server: mbzxe7zrq8yrneoa.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: mbzxe7zrq8yrneoa.0x01.cyou}}
+  - {name: SSRTOOL.COM 3, server: uiogfvt.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: uiogfvt.0x01.cyou}}
+  - {name: SSRTOOL.COM 4, server: cpuuh24.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: cpuuh24.0x01.cyou}}
+  - {name: SSRTOOL.COM 5, server: nimyu.0x01.cyou, port: 443, type: vmess, uuid: 69dda156-42e3-41e2-9fec-1cd395e7db14, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /cw71s31r, ws-headers: {Host: nimyu.0x01.cyou}}
   - {name: 🇺🇸 US避难节点缓慢, server: wp.hao999.ml, port: 443, type: vmess, uuid: ffc1c5e7-8462-46e9-91f4-5c93aee04bd5, alterId: 20, cipher: auto, tls: true, network: ws, ws-path: /SoftDown/doc5, ws-headers: {Host: wp.hao999.ml}}
-  - {name: 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99, server: chinahright.xyz, port: 443, type: vmess, uuid: 900e7884-cda0-11ea-84ee-560002e7e06f, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /wlyKLCpM/, ws-headers: {Host: chinahright.xyz}}
-  - {name: 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99, server: notoneless.ml, port: 443, type: vmess, uuid: c81b4ec0-cda3-11ea-a3bc-560002e7e1aa, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /356KwsaA/, ws-headers: {Host: notoneless.ml}}
-  - {name: 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99, server: milkgogo.cf, port: 443, type: vmess, uuid: 4ab534d0-cda5-11ea-abff-560002e7e21c, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /UJbs40md/, ws-headers: {Host: milkgogo.cf}}
-  - {name: 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99, server: pampersvk.tk, port: 443, type: vmess, uuid: 36ae4db4-d192-11ea-a440-560002e95be5, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /aKNrq4XO/, ws-headers: {Host: pampersvk.tk}}
-  - {name: 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99, server: britagood.ml, port: 443, type: vmess, uuid: a708dcdc-d19c-11ea-8478-560002e9602f, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /JBKpEo1W/, ws-headers: {Host: britagood.ml}}
-  - {name: 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99, server: geniusbar.tk, port: 443, type: vmess, uuid: ea019f4a-d1da-11ea-a21d-560002e97a31, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /rQ7xw9jI/, ws-headers: {Host: geniusbar.tk}}
-  - {name: 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99, server: milkgogo.tk, port: 443, type: vmess, uuid: fda3f6f8-d192-11ea-98dd-560002e95c30, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /5ECbvKUV/, ws-headers: {Host: milkgogo.tk}}
+  - {name: SSRTOOL.COM 6, server: fj.kaguya.cf, port: 10580, type: vmess, uuid: 844d1b0f-94a9-4b7f-8e09-dbb734bb663b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: fj.kaguya.cf}}
+  - {name: SSRTOOL.COM 7, server: china-01-trass.py6.pw, port: 33913, type: vmess, uuid: 844d1b0f-94a9-4b7f-8e09-dbb734bb663b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: china-01-trass.py6.pw}}
+  - {name: SSRTOOL.COM 8, server: 13.75.110.106, port: 53420, type: vmess, uuid: 844d1b0f-94a9-4b7f-8e09-dbb734bb663b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.110.106}}
+  - {name: SSRTOOL.COM 9, server: 154.84.1.83, port: 443, type: vmess, uuid: 8b722ceb-474c-4698-8fb8-c496bb3eb440, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.98868925.xyz}}
   - {name: 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99, server: chinahr.ml, port: 443, type: vmess, uuid: 04a5b264-d6f4-11ea-899a-560002eb41fb, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /UNHcnaFW/, ws-headers: {Host: chinahr.ml}}
   - {name: 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99, server: gfwdasb.xyz, port: 443, type: vmess, uuid: 66828f92-d6f5-11ea-86f6-560002eb4259, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /p3JNnkWF/, ws-headers: {Host: gfwdasb.xyz}}
   - {name: 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99, server: fivedemands.ml, port: 443, type: vmess, uuid: 8d6768c4-d6f7-11ea-942f-560002eb4361, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /CLUeYPSj/, ws-headers: {Host: fivedemands.ml}}
-  - {name: 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99, server: kirklandgood.ml, port: 443, type: vmess, uuid: dc17580c-d6f8-11ea-8feb-560002eb4466, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /AZdlN7fX/, ws-headers: {Host: kirklandgood.ml}}
   - {name: 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99, server: xibun.ml, port: 443, type: vmess, uuid: d6a062d6-d6fa-11ea-8241-560002eb454d, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /Cra1lWmq/, ws-headers: {Host: xibun.ml}}
   - {name: 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99, server: tacotasty.tk, port: 443, type: vmess, uuid: b1c1ee70-d6fb-11ea-ac2f-560002eb45ec, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /tSJfUqC6/, ws-headers: {Host: tacotasty.tk}}
   - {name: 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99, server: ccpisdevil.ml, port: 443, type: vmess, uuid: 667b94ec-d6fc-11ea-b7e9-560002eb462e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /IANhMp69/, ws-headers: {Host: ccpisdevil.ml}}
@@ -34,10 +29,16 @@ proxies:
   - {name: 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99, server: cdp2019.tk, port: 443, type: vmess, uuid: 184be0c8-d702-11ea-a94b-560002eb48b7, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /clN8EkOi/, ws-headers: {Host: cdp2019.tk}}
   - {name: 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99, server: chinahumanr.ml, port: 443, type: vmess, uuid: edd51854-d702-11ea-9825-560002eb4918, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /i8BbEr7H/, ws-headers: {Host: chinahumanr.ml}}
   - {name: 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99, server: canongood.ml, port: 443, type: vmess, uuid: eec88862-d703-11ea-9dd7-560002eb498a, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /lDdeFMTY/, ws-headers: {Host: canongood.ml}}
-  - {name: SSRTOOL.COM 7, server: 120.78.125.165, port: 23333, type: vmess, uuid: 8e979f92-f7b4-4bfa-ce59-b5e226b739fa, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 120.78.125.165}}
-  - {name: SSRTOOL.COM 8, server: fj.kaguya.cf, port: 10580, type: vmess, uuid: 844d1b0f-94a9-4b7f-8e09-dbb734bb663b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: fj.kaguya.cf}}
-  - {name: SSRTOOL.COM 9, server: china-01-trass.py6.pw, port: 33913, type: vmess, uuid: 844d1b0f-94a9-4b7f-8e09-dbb734bb663b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: china-01-trass.py6.pw}}
-  - {name: SSRTOOL.COM 10, server: 13.75.110.106, port: 53420, type: vmess, uuid: 844d1b0f-94a9-4b7f-8e09-dbb734bb663b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.75.110.106}}
+  - {name: 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99, server: weneedfreedom.ml, port: 443, type: vmess, uuid: d2421748-d709-11ea-9e3f-560002eb4bfa, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /FIqprk0d/, ws-headers: {Host: weneedfreedom.ml}}
+  - {name: 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99, server: applemusics.tk, port: 443, type: vmess, uuid: cf496ccc-d74e-11ea-94be-560002eb6c53, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /AhCMcSIX/, ws-headers: {Host: applemusics.tk}}
+  - {name: 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99, server: milkgogo.cf, port: 443, type: vmess, uuid: abfca62a-d74f-11ea-b127-560002eb6c81, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /HNVw1UXv/, ws-headers: {Host: milkgogo.cf}}
+  - {name: 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99, server: britagood.ml, port: 443, type: vmess, uuid: e2a729c2-d761-11ea-93c8-560002eb7229, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /LuHw6m04/, ws-headers: {Host: britagood.ml}}
+  - {name: 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99, server: chinahright.xyz, port: 443, type: vmess, uuid: aa89218a-d784-11ea-bef3-560002eb7b9a, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /2fzYGQho/, ws-headers: {Host: chinahright.xyz}}
+  - {name: 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99, server: geniusbar.tk, port: 443, type: vmess, uuid: 9e32d218-d785-11ea-a852-560002eb7be9, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /C4jznHha/, ws-headers: {Host: geniusbar.tk}}
+  - {name: 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99, server: pampersvk.tk, port: 443, type: vmess, uuid: 0ffe964e-d7cb-11ea-b9f8-560002eb9a5c, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /ApEPUnyF/, ws-headers: {Host: pampersvk.tk}}
+  - {name: 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99, server: kirklandgood.ml, port: 443, type: vmess, uuid: 028320fa-d813-11ea-bbb9-560002ebb9f4, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /Azog4V7Q/, ws-headers: {Host: kirklandgood.ml}}
+  - {name: 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99, server: milkgogo.tk, port: 443, type: vmess, uuid: c9dd5dc8-d813-11ea-ae8a-560002ebba26, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /F3rRYvuK/, ws-headers: {Host: milkgogo.tk}}
+  - {name: 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99, server: notoneless.ml, port: 443, type: vmess, uuid: 0e27a7e2-d86c-11ea-91c3-560002ebd632, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /68UCSeIY/, ws-headers: {Host: notoneless.ml}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -49,19 +50,14 @@ proxy-groups:
       - SSRTOOL.COM 3
       - SSRTOOL.COM 4
       - SSRTOOL.COM 5
-      - SSRTOOL.COM 6
       - 🇺🇸 US避难节点缓慢
-      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
-      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - SSRTOOL.COM 6
+      - SSRTOOL.COM 7
+      - SSRTOOL.COM 8
+      - SSRTOOL.COM 9
       - 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99
@@ -73,10 +69,16 @@ proxy-groups:
       - 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
-      - SSRTOOL.COM 7
-      - SSRTOOL.COM 8
-      - SSRTOOL.COM 9
-      - SSRTOOL.COM 10
+      - 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -87,19 +89,14 @@ proxy-groups:
       - SSRTOOL.COM 3
       - SSRTOOL.COM 4
       - SSRTOOL.COM 5
-      - SSRTOOL.COM 6
       - 🇺🇸 US避难节点缓慢
-      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
-      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - SSRTOOL.COM 6
+      - SSRTOOL.COM 7
+      - SSRTOOL.COM 8
+      - SSRTOOL.COM 9
       - 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99
@@ -111,10 +108,16 @@ proxy-groups:
       - 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
-      - SSRTOOL.COM 7
-      - SSRTOOL.COM 8
-      - SSRTOOL.COM 9
-      - SSRTOOL.COM 10
+      - 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -126,19 +129,14 @@ proxy-groups:
       - SSRTOOL.COM 3
       - SSRTOOL.COM 4
       - SSRTOOL.COM 5
-      - SSRTOOL.COM 6
       - 🇺🇸 US避难节点缓慢
-      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
-      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - SSRTOOL.COM 6
+      - SSRTOOL.COM 7
+      - SSRTOOL.COM 8
+      - SSRTOOL.COM 9
       - 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99
@@ -150,10 +148,16 @@ proxy-groups:
       - 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
-      - SSRTOOL.COM 7
-      - SSRTOOL.COM 8
-      - SSRTOOL.COM 9
-      - SSRTOOL.COM 10
+      - 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -169,19 +173,14 @@ proxy-groups:
       - SSRTOOL.COM 3
       - SSRTOOL.COM 4
       - SSRTOOL.COM 5
-      - SSRTOOL.COM 6
       - 🇺🇸 US避难节点缓慢
-      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
-      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - SSRTOOL.COM 6
+      - SSRTOOL.COM 7
+      - SSRTOOL.COM 8
+      - SSRTOOL.COM 9
       - 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99
@@ -193,10 +192,16 @@ proxy-groups:
       - 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
-      - SSRTOOL.COM 7
-      - SSRTOOL.COM 8
-      - SSRTOOL.COM 9
-      - SSRTOOL.COM 10
+      - 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
   - name: 📲 电报信息
     type: select
     proxies:
@@ -207,19 +212,14 @@ proxy-groups:
       - SSRTOOL.COM 3
       - SSRTOOL.COM 4
       - SSRTOOL.COM 5
-      - SSRTOOL.COM 6
       - 🇺🇸 US避难节点缓慢
-      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
-      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - SSRTOOL.COM 6
+      - SSRTOOL.COM 7
+      - SSRTOOL.COM 8
+      - SSRTOOL.COM 9
       - 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99
@@ -231,10 +231,16 @@ proxy-groups:
       - 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
-      - SSRTOOL.COM 7
-      - SSRTOOL.COM 8
-      - SSRTOOL.COM 9
-      - SSRTOOL.COM 10
+      - 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -246,19 +252,14 @@ proxy-groups:
       - SSRTOOL.COM 3
       - SSRTOOL.COM 4
       - SSRTOOL.COM 5
-      - SSRTOOL.COM 6
       - 🇺🇸 US避难节点缓慢
-      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
-      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - SSRTOOL.COM 6
+      - SSRTOOL.COM 7
+      - SSRTOOL.COM 8
+      - SSRTOOL.COM 9
       - 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99
@@ -270,10 +271,16 @@ proxy-groups:
       - 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
-      - SSRTOOL.COM 7
-      - SSRTOOL.COM 8
-      - SSRTOOL.COM 9
-      - SSRTOOL.COM 10
+      - 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -294,19 +301,14 @@ proxy-groups:
       - SSRTOOL.COM 3
       - SSRTOOL.COM 4
       - SSRTOOL.COM 5
-      - SSRTOOL.COM 6
       - 🇺🇸 US避难节点缓慢
-      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
-      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
-      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - SSRTOOL.COM 6
+      - SSRTOOL.COM 7
+      - SSRTOOL.COM 8
+      - SSRTOOL.COM 9
       - 🇰🇷 韩国1，电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本10：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 善款5：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 日本9：电报频道：https://t.me/cnhumanright99
@@ -318,10 +320,16 @@ proxy-groups:
       - 🇺🇸 西雅图C：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
-      - SSRTOOL.COM 7
-      - SSRTOOL.COM 8
-      - SSRTOOL.COM 9
-      - SSRTOOL.COM 10
+      - 🇰🇷 善款7韩国：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款9日本：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
+      - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款1洛杉矶：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本2：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 善款4西雅图：电报频道：https://t.me/cnhumanright99
+      - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
