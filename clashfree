@@ -30,6 +30,7 @@ proxies:
   - {name: 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99, server: cdp2019.ml, port: 443, type: vmess, uuid: f2a53aa8-fe3a-11ea-a8c3-560002fba79e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /K1TCApGM/, ws-headers: {Host: cdp2019.ml}}
   - {name: 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99, server: chinahumanr.ml, port: 443, type: vmess, uuid: 3bdfe68e-fe3e-11ea-b6f1-560002fba80a, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /O5p71AeD/, ws-headers: {Host: chinahumanr.ml}}
   - {name: 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99, server: notoneless.ml, port: 443, type: vmess, uuid: 0bf9a1a2-fe3f-11ea-a80d-560002fba909, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /H5ZgmK2j/, ws-headers: {Host: notoneless.ml}}
+  - {name: 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray, server: hk.free.04.jisumax.xyz, port: 55204, type: vmess, uuid: 14f88b5f-197e-4702-b035-c9f42dd0aceb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk.free.04.jisumax.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -61,6 +62,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -91,6 +93,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -122,6 +125,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
   - name: 📲 电报信息
     type: select
     proxies:
@@ -152,6 +156,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -182,6 +187,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -212,6 +218,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -243,6 +250,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -290,6 +298,7 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
+      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
