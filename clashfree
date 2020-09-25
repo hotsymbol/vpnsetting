@@ -6,12 +6,9 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: SSRTOOL.COM, server: 45.8.159.203, port: 45679, type: vmess, uuid: 8f17edeb-927e-4ad0-a489-64d491bfac69, alterId: 233, cipher: auto, tls: false}
-  - {name: 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99, server: applemusics.tk, port: 443, type: vmess, uuid: 247ee902-f97c-11ea-b599-560002f98388, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /u7nCB0a5/, ws-headers: {Host: applemusics.tk}}
-  - {name: 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99, server: fivedemands.ml, port: 443, type: vmess, uuid: 9102c108-f980-11ea-a257-560002f985ca, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /eK3j5AGU/, ws-headers: {Host: fivedemands.ml}}
+  - {name: test.softkorea.tk:443, server: test.softkorea.tk, port: 443, type: trojan, password: HvXUX7FgqyTX6s, sni: test.softkorea.tk}
   - {name: 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99, server: chinahright.xyz, port: 443, type: vmess, uuid: ef303020-fb11-11ea-9503-560002fa23ad, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /Ye1O4j0G/, ws-headers: {Host: chinahright.xyz}}
   - {name: 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99, server: tacotasty.tk, port: 443, type: vmess, uuid: cb23d410-fb12-11ea-b6be-560002fa24b9, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /3vstruLT/, ws-headers: {Host: tacotasty.tk}}
-  - {name: 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99, server: burgerkinggood.ml, port: 443, type: vmess, uuid: eb572f96-fb14-11ea-b036-560002fa25a6, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /TzDZj35E/, ws-headers: {Host: burgerkinggood.ml}}
-  - {name: 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99, server: rocketgogo.ml, port: 443, type: vmess, uuid: 2707eeb2-fb16-11ea-b02c-560002fa269c, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /pqOSJ5VA/, ws-headers: {Host: rocketgogo.ml}}
   - {name: 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99, server: canongood.ml, port: 443, type: vmess, uuid: 380f2080-fb17-11ea-9bae-560002fa2735, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /TVBUkqNZ/, ws-headers: {Host: canongood.ml}}
   - {name: 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99, server: milkgogo.cf, port: 443, type: vmess, uuid: 489109d6-fb18-11ea-a252-560002fa27ee, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /DpHC3BJw/, ws-headers: {Host: milkgogo.cf}}
   - {name: 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99, server: geniusbar.tk, port: 443, type: vmess, uuid: 0432e636-fb1a-11ea-8195-560002fa28a5, alterId: 45, cipher: auto, tls: true, network: ws, ws-path: /FX2iv1Kf/, ws-headers: {Host: geniusbar.tk}}
@@ -30,7 +27,10 @@ proxies:
   - {name: 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99, server: cdp2019.ml, port: 443, type: vmess, uuid: f2a53aa8-fe3a-11ea-a8c3-560002fba79e, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /K1TCApGM/, ws-headers: {Host: cdp2019.ml}}
   - {name: 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99, server: chinahumanr.ml, port: 443, type: vmess, uuid: 3bdfe68e-fe3e-11ea-b6f1-560002fba80a, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /O5p71AeD/, ws-headers: {Host: chinahumanr.ml}}
   - {name: 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99, server: notoneless.ml, port: 443, type: vmess, uuid: 0bf9a1a2-fe3f-11ea-a80d-560002fba909, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /H5ZgmK2j/, ws-headers: {Host: notoneless.ml}}
-  - {name: 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray, server: hk.free.04.jisumax.xyz, port: 55204, type: vmess, uuid: 14f88b5f-197e-4702-b035-c9f42dd0aceb, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk.free.04.jisumax.xyz}}
+  - {name: 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99, server: applemusics.tk, port: 443, type: vmess, uuid: 4d539eba-fe43-11ea-9334-560002fbabbe, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /HGUguBY9/, ws-headers: {Host: applemusics.tk}}
+  - {name: 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99, server: burgerkinggood.ml, port: 443, type: vmess, uuid: e7b48582-ff01-11ea-900a-560002fc102d, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /DpSoNPMG/, ws-headers: {Host: burgerkinggood.ml}}
+  - {name: 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99, server: fivedemands.ml, port: 443, type: vmess, uuid: 19fc6eb8-ff04-11ea-a794-560002fc1137, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /Kozj0pIX/, ws-headers: {Host: fivedemands.ml}}
+  - {name: 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99, server: rocketgogo.ml, port: 443, type: vmess, uuid: 57065728-ff05-11ea-829a-560002fc11a3, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /MoGzR2Wd/, ws-headers: {Host: rocketgogo.ml}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -38,12 +38,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -62,19 +59,19 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -93,7 +90,10 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -101,12 +101,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -125,19 +122,19 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -156,19 +153,19 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -187,19 +184,19 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -218,7 +215,10 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -226,12 +226,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -250,7 +247,10 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -274,12 +274,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - SSRTOOL.COM
-      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - test.softkorea.tk:443
       - 🇸🇬 新加坡：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款6日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 善款10日本：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 善款3西雅图：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 韩国2，电报频道：https://t.me/cnhumanright99
@@ -298,7 +295,10 @@ proxy-groups:
       - 🇯🇵 日本1：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 西雅图B：电报频道：https://t.me/cnhumanright99
       - 🇺🇸 洛杉矶1：电报频道：https://t.me/cnhumanright99
-      - 🇭🇰 JiSuMaX&Free · 香港04 - Direct|V2Ray
+      - 🇰🇷 善款8韩国 节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 善款2日本：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本5：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 日本4：电报频道：https://t.me/cnhumanright99
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
