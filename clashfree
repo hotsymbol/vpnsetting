@@ -5,172 +5,196 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99, server: fuckxibaozi.ga, port: 443, type: trojan, password: 261f1a04-6cdc-4f34-91e2-1f2c4d1ad319, sni: fuckxibaozi.ga}
-  - {name: 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99, server: chinahright.ml, port: 443, type: trojan, password: 59b8270c-c4e5-403d-bcf1-4ff13f3a9b1a, sni: chinahright.ml}
-  - {name: 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99, server: milkgogo.ga, port: 443, type: trojan, password: 99f65927-6b92-491a-8724-9d4009f4400d, sni: milkgogo.ga}
-  - {name: 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: 20b08110-e6cb-4fc8-9dbc-5d4dea42f8a5, sni: fuckxiaofenhong.gq}
-  - {name: 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99, server: fuckxijinping.ga, port: 443, type: trojan, password: ebda4233-581b-4658-9405-d1c38e40ffef, sni: fuckxijinping.ga}
-  - {name: 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99, server: fuckxijinping.cf, port: 443, type: trojan, password: a69c4593-2938-413a-bfde-d163f7d29554, sni: fuckxijinping.cf}
-  - {name: 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: 4edaed86-2e14-4770-9ea3-be12c61c419a, sni: fuckxiaofenhong.tk}
-  - {name: 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99, server: xibun.gq, port: 443, type: trojan, password: e6a4ccd6-47b0-4d12-8b72-4712e818bc80, sni: xibun.gq}
-  - {name: 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99, server: chinahr.cf, port: 443, type: vmess, uuid: 6ed2a1ec-3608-11eb-9ab6-56000313b6dd, alterId: 46, cipher: auto, tls: true, network: ws, ws-path: /RuBx5EhI/, ws-headers: {Host: chinahr.cf}}
-  - {name: 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99, server: littlesur.ml, port: 443, type: vmess, uuid: 8eedab16-3667-11eb-aaa3-560003166d6f, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /c9SkNvqH/, ws-headers: {Host: littlesur.ml}}
-  - {name: 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99, server: bigsur.cf, port: 443, type: vmess, uuid: c423d9a4-3667-11eb-801c-560003166d7b, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /u0weDb9K/, ws-headers: {Host: bigsur.cf}}
-  - {name: 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99, server: xibun.cf, port: 443, type: vmess, uuid: 6a3973ee-3744-11eb-bc0e-56000316ce3d, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /D9FOLpxc/, ws-headers: {Host: xibun.cf}}
-  - {name: 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99, server: trotro.ml, port: 443, type: trojan, password: a4626fe3-4452-4489-b645-9042f49d8655, sni: trotro.ml}
-  - {name: 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 2c71a866-7c1a-42d2-9cbc-cdd92426bc49, sni: fuckxiaofenhong.ga}
-  - {name: 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: 0882cf23-b269-4e22-b223-846ca55fe0fa, sni: fuckxiaofenhong.ml}
-  - {name: 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: a3fdeba2-f5b4-41fe-a8d2-579327b0d40a, sni: fuckxiaofenhong.cf}
+  - {name: SSRTOOL.COM, server: 154.84.1.144, port: 443, type: vmess, uuid: c2d4db53-83b9-41ab-8b4a-74648635d38e, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.58613279.xyz}}
+  - {name: SSRTOOL.COM 2, server: 185.22.153.53, port: 55322, type: vmess, uuid: 83e53e01-895b-4294-b08d-52a8cf47cdcf, alterId: 0, cipher: auto, tls: false}
+  - {name: SSRTOOL.COM 3, server: v1-aws-hk-01.tudog.me, port: 80, type: vmess, uuid: 68b59a8e-bcdb-3468-94e2-eac283b85ebf, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-hk-01.tudog.me}}
+  - {name: 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99, server: fuckxibaozi.ga, port: 443, type: trojan, password: 92acb951-b4e2-4816-8db3-444209cefa59, sni: fuckxibaozi.ga}
+  - {name: 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.gq, port: 443, type: trojan, password: 0df5fa36-a7b7-4b40-b09c-5b19aaaf6570, sni: fuckxiaofenhong.gq}
+  - {name: 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99, server: chinahr.cf, port: 443, type: vmess, uuid: d5f814b6-3a6c-11eb-90e6-5600031845ce, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /xBhmkyCo/, ws-headers: {Host: chinahr.cf}}
+  - {name: 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99, server: xibun.gq, port: 443, type: trojan, password: 0bf48ac6-e8d3-4526-b7c4-1b957134e50e, sni: xibun.gq}
+  - {name: 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.tk, port: 443, type: trojan, password: e19067f5-59ed-4621-af86-2366ff638f05, sni: fuckxiaofenhong.tk}
+  - {name: 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99, server: xibun.cf, port: 443, type: vmess, uuid: ad885e60-3c00-11eb-b789-560003191341, alterId: 12, cipher: auto, tls: true, network: ws, ws-path: /VeMgBaQh/, ws-headers: {Host: xibun.cf}}
+  - {name: 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99, server: littlesur.ml, port: 443, type: vmess, uuid: 9559f144-3c52-11eb-a62b-560003191f2e, alterId: 6, cipher: auto, tls: true, network: ws, ws-path: /Gn2drwBb/, ws-headers: {Host: littlesur.ml}}
+  - {name: 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99, server: bigsur.cf, port: 443, type: vmess, uuid: 98b9a3c0-3c52-11eb-ac64-560003191ef5, alterId: 5, cipher: auto, tls: true, network: ws, ws-path: /aRjTqiQ6/, ws-headers: {Host: bigsur.cf}}
+  - {name: 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99, server: milkgogo.ga, port: 443, type: trojan, password: 44095006-040c-4d19-abed-7259dbde36a9, sni: milkgogo.ga}
+  - {name: 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99, server: fuckxijinping.ga, port: 443, type: trojan, password: 60cddc6a-ed2d-4ab6-b630-cbfda7b8eaf0, sni: fuckxijinping.ga}
+  - {name: 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99, server: fuckxijinping.cf, port: 443, type: trojan, password: ec6b7016-88c4-426d-8d5e-9f60c83ed898, sni: fuckxijinping.cf}
+  - {name: 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99, server: chinahright.ml, port: 443, type: trojan, password: 5991331f-5d17-4733-8435-a5bc4315a705, sni: chinahright.ml}
+  - {name: 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99, server: trotro.ml, port: 443, type: trojan, password: 5a2d9c00-6e55-466e-bf61-262a08b02318, sni: trotro.ml}
+  - {name: 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.ml, port: 443, type: trojan, password: b9bd09ff-0b2b-4d81-a981-237b27ecbf62, sni: fuckxiaofenhong.ml}
+  - {name: 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.cf, port: 443, type: trojan, password: 57a70366-c7f6-4495-bd96-106f95ba9d2f, sni: fuckxiaofenhong.cf}
+  - {name: 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99, server: fuckxiaofenhong.ga, port: 443, type: trojan, password: 0451fd7a-6b68-4786-8500-70c20c079c1c, sni: fuckxiaofenhong.ga}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -193,22 +217,25 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - SSRTOOL.COM
+      - SSRTOOL.COM 2
+      - SSRTOOL.COM 3
       - 🇯🇵 翻墙会提供_k_捐款购买_日本8_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本1_自己：电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
-      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
-      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
-      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_日本11_自己，电报频道：https://t.me/cnhumanright99
+      - 🇺🇲 翻墙会提供_西雅图C_ 自己：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本5_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国9_自己 电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国7_自己  电报频道：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_W捐款购买_5_2020/12/26：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_日本3_自己：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_seoul_2_自己：电报频道：https://t.me/cnhumanright99
+      - 🇸🇬 翻墙会提供_seoul_3_自己  节点更新：电报频道：https://t.me/cnhumanright99
+      - 🇯🇵 翻墙会提供_k_捐款购买_日本2_2021/01/25   电报频道：https://t.me/cnhumanright99
       - 🇰🇷 翻墙会提供_韩国3_自己 电报频道：：https://t.me/cnhumanright99
-      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
       - 🇨🇳 翻墙会提供_k_捐款购买_善款10_2021/01/25：电报频道：https://t.me/cnhumanright99
       - 🇯🇵 翻墙会提供_k_捐款购买_日本10_2021/01/25：电报频道：https://t.me/cnhumanright99
+      - 🇨🇳 翻墙会提供_tokyo_1_自己：电报频道：https://t.me/cnhumanright99
 rules:
  - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -2141,20 +2168,29 @@ rules:
  - DOMAIN-SUFFIX,hinet.net,🌍 国外媒体
  - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
  - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,control.kochava.com,🌍 国外媒体
  - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn-api.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dazndn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,dc2-vodhls-perform.secure.footprint.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,dca-ll-livedazn-dznlivejp.s.llnwi.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,dca-ll-voddazn-dznvodjp.s.llnwi.net,🌍 国外媒体
+ - DOMAIN-SUFFIX,dcalivedazn.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,🌍 国外媒体
  - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
  - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
  - DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
+ - DOMAIN-SUFFIX,logx.optimizely.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,onboarding.indazn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,pubby.indazn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,rail.discovery.indazn.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,s.yimg.jp,🌍 国外媒体
  - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
  - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
  - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
- - DOMAIN,global.edge.bamgrid.com,🌍 国外媒体
  - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
  - DOMAIN-SUFFIX,bam.nr-date.net,🌍 国外媒体
  - DOMAIN-SUFFIX,bamgrid.com,🌍 国外媒体
@@ -2169,6 +2205,7 @@ rules:
  - DOMAIN-SUFFIX,disney.my.sentry.io,🌍 国外媒体
  - DOMAIN-SUFFIX,disneyplus.bn5x.net,🌍 国外媒体
  - DOMAIN-SUFFIX,disneyplus.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,disneystreaming.com,🌍 国外媒体
  - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
  - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
  - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
@@ -2968,12 +3005,15 @@ rules:
  - DOMAIN-SUFFIX,st.dl.eccdnx.com,🎯 全球直连
  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,🎯 全球直连
+ - DOMAIN-SUFFIX,steamcommunity-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamgames.com,🎯 全球直连
  - DOMAIN-SUFFIX,steampowered.com.8686c.com,🎯 全球直连
  - DOMAIN-SUFFIX,steamstat.us,🎯 全球直连
  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamstore-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,steamusercontent.com,🎯 全球直连
+ - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
  - DOMAIN-SUFFIX,foxmail.com,🎯 全球直连
  - DOMAIN-SUFFIX,gtimg.com,🎯 全球直连
  - DOMAIN-SUFFIX,idqqimg.com,🎯 全球直连
